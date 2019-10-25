@@ -1,0 +1,16 @@
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+#container {
+  width: 100%;
+  display: inline-block;
+  .content {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 900px) {  
+  div.content {margin-left: 0;}
+}
